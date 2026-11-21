@@ -1,0 +1,57 @@
+I have uploaded 2 images:
+1. IMAGE 1: A full-page screenshot of the CURRENT website of Larry Bell (national educational speaker, Larry-Bell.com).
+2. IMAGE 2: A photo of Larry Bell on stage (tan suit, arms open, dark background with columns).
+
+There is NO separate logo file. The logo is in the top-left corner of the header in IMAGE 1 (Larry's photo + "Somebody Needs You! / Larry Bell / National Presenter, Educational Consultant and Author / On your worst day on the job, you are still some child's best hope!"). Please extract/crop that logo from IMAGE 1 and use it in the header and footer. If a clean crop is not possible, recreate it as a text logo: small gold italic tagline "Somebody Needs You!" above a large white bold "Larry Bell", with the subtitle "National Presenter, Educational Consultant and Author" below, plus a small circular crop of Larry's face from IMAGE 2.
+
+TASK: Rebuild this website from scratch as a premium, multi-million-dollar-feeling, high-converting, fully responsive website. Keep the SAME brand identity: same colors, same tagline, same content. Read ALL text, phone, email, address, testimonial names and every section from IMAGE 1 and reuse it word for word (fix typos, remove leftover placeholders like "(link to page)"). Use IMAGE 2 as Larry's main photo everywhere (hero, about section, CTA), at full quality.
+
+BRAND COLORS (from the current site, refined):
+- Deep Navy/Black: #0B0F14 (header, footer, hero overlay)
+- Royal Blue: #0F86CC (main accent, cards, links)
+- Dark Blue: #0A4A73 (gradients)
+- Brand Red: #C8302F (CTA buttons, highlights)
+- Gold/Yellow: #FFE000 (only for the word "Unstoppable!" and small accents)
+- Warm Cream: #FFF0D2 (soft section backgrounds)
+- White text on dark. Use navy-to-blue gradients. No other colors.
+
+TYPOGRAPHY: Headings: "Playfair Display" or "Poppins" bold. Body: "Inter". Large, clear, generous line-height.
+
+HEADER:
+- Sticky, dark navy, glass blur after scroll, shrinks slightly on scroll.
+- Left: logo. Center: menu (Home, Presentations/Workshops, Programs, Meet Larry, Our Difference, Reviews & Results, Ask Larry, Contact), max 7 visible items, extras in dropdowns. Right: phone 703.969.0156 and an animated red "Book Larry" button.
+- Mobile: hamburger with smooth slide-in menu and tap-to-call button.
+
+HERO (stunning):
+- Full-screen. Larry's photo (IMAGE 2) large on the right with soft spotlight glow, blended into a dark navy gradient background on the left. Floating gold particles.
+- Left text: small gold label "National Presenter • Educational Consultant • Author", big headline "Make Your Teachers <gold>Unstoppable!</gold>", subheadline "On your worst day on the job, you are still some child's best hope!"
+- Buttons: red "Book Larry for Your School" and outline "Watch Larry in Action".
+- Animated count-up stats: 20+ Years Experience, Thousands of Teachers Inspired, Schools & Districts Nationwide.
+- Text fade-up stagger, subtle parallax, bouncing scroll indicator.
+
+SECTIONS (in this order, scroll-reveal animations on all):
+1. Trust bar: "Serving schools nationwide" with California, Tennessee, Texas, Louisiana, Arkansas, Oklahoma as animated pills.
+2. "Larry Bell Presents: Unstoppable! Professional Development": two glass cards: why it works (3 points from IMAGE 1) and "An Unstoppable presentation is excellent for" (5 items from IMAGE 1), with icons and hover lift.
+3. Big quote banner: "Too many teachers are swimming in blessings and drowning in complaints." plus "Larry's goal is to help every teacher develop their Unstoppable! power!"
+4. "Give Your Staff the Energy and Motivation They Need!": two columns, Larry's photo in a framed card with floating badge, text and contact details on the other side.
+5. "How Larry Bell can help your school": 5 animated feature cards from the checklist in IMAGE 1, ending with "Then you need Larry Bell. He has been working with schools and districts nationwide for 20+ years and the results have been incredible!"
+6. Two YouTube video cards ("Larry Bell; national presenter, educational consultant" and "About Larry Bell"), rounded, lazy loaded.
+7. Educational Workshops: premium card with "Read More" button.
+8. "Larry Bell Schools in the News: The Creswell Experience" (Creswell Elementary School, Shreveport, LA), dark section with link button.
+9. Testimonials "Hear What Our Clients Have to Say": 3 video cards (Jesse Najera, Principal, Adelanto Elementary School, Adelanto, CA; Nathan Currie, Principal, Isenberg Elementary School, Salisbury, NC; Lesa Scillion and Vikki Hayslett, School Administrators, Obion County Schools). Carousel on mobile.
+10. Two cards: "How to Become a Larry Bell School/District" (Fundamental Strategies Program) and "The Latest on Larry" ("Larry still has some dates available").
+11. Final CTA: navy-to-blue gradient, "Ready to Make Your Teachers Unstoppable?", contact form (Name, School/District, Email, Phone, Preferred date, Message) with red submit button and success toast. Beside it: Phone 703.969.0156, Email Larry@Larry-Bell.com.
+12. Footer: dark navy, logo, Empowering Presentations Inc., 12689 Crossbow Dr., Manassas, VA 20112, Call 703.969.0156, Fax 866.590.3767, Email larry@larry-bell.com, quick links, social icons (Facebook, YouTube, LinkedIn, X), copyright 2026.
+
+ANIMATIONS & POLISH:
+- Framer Motion scroll-reveal (fade/slide/scale) on every section.
+- Card hover lift + glow. Main CTA: shine sweep + subtle pulse.
+- Glassmorphism, rounded-2xl corners, soft shadows, diagonal/wave section dividers.
+- Back-to-top button, sticky floating "Book Larry" button on mobile, page-load fade-in. Respect prefers-reduced-motion.
+
+TECHNICAL:
+- React + Tailwind + Framer Motion + shadcn/ui.
+- Fully responsive for mobile, tablet, laptop, large desktop. Mobile-first, no horizontal scroll, touch-friendly.
+- Optimized images with alt text, semantic HTML, SEO title/meta ("Larry Bell | Educational Motivational Speaker & Teacher Professional Development"), Open Graph tags, accessible contrast, form validation.
+
+TONE: Authoritative, inspiring, premium, like a high-end national keynote speaker brand. Do not copy the old layout. Keep only the content, brand colors, logo and photo.

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Larry Bell"
+description = "A premium, responsive speaker and educator website for Larry Bell, showcasing his Unstoppable! professional development, workshops, school impact, testimonials, and booking inquiry."
+version = "1.0.0"
+id = "artifacts/larry-bell-website"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18553
+
+[services.development]
+run = "pnpm --filter @workspace/larry-bell-website run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/larry-bell-website", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/larry-bell-website/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18553"
+BASE_PATH = "/"

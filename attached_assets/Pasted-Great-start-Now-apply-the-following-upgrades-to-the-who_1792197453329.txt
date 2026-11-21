@@ -1,0 +1,44 @@
+Great start. Now apply the following upgrades to the whole website. Keep all existing content, but improve the design, header, hero, colors, animation and responsiveness. IMAGE 1 (the original client screenshot I uploaded earlier) is the brand reference: keep its logo, its photo and its content, and match the brand feel (navy, royal blue, red, gold).
+
+1. HEADER (rebuild completely, make it premium)
+- Always visible: position fixed/sticky at top with z-index above everything, on EVERY scroll position and every page. It must never disappear while scrolling.
+- Transparent over hero at top; after 40px scroll switch to navy (#0B0F14) with backdrop-blur, thin bottom border and soft shadow, and reduce height smoothly (88px to 68px).
+- Layout: LEFT logo (much bigger and more prominent: 56-64px circular photo logo of Larry with gold ring, next to "Larry Bell" in bold white and "Somebody Needs You!" in gold italic above, plus subtitle "National Presenter · Educational Consultant · Author" in small light text). CENTER: only 5 nav links (Home, Presentations, Programs, Meet Larry, Reviews & Results) with animated gold underline on hover and active state. Put everything else under a clean "More" dropdown. RIGHT: ONE red "Book Larry" button on a single line (white-space: nowrap, no wrapping), with subtle shine animation.
+- Show the phone number ONLY ONCE: as a small icon + "703.969.0156" on desktop (xl screens), hidden on tablet; on mobile it becomes a round tap-to-call icon button. Remove the repeated phone numbers from the header.
+- Tablet and mobile: hamburger menu, full-height slide-in navy panel with large tap-friendly links, staggered link animation, big red "Book Larry" button and phone button at the bottom, close button, body scroll lock.
+- No overlapping or cramped items at any width from 320px to 1920px.
+
+2. HERO
+- Full-screen, cinematic. Larry's photo must be BIGGER and more forward: occupy about 55% of the width on desktop, anchored to the right, bottom-aligned, with NO hard box edges. Blend the photo smoothly into the background using gradient masks on left and bottom, with a soft blue spotlight glow and subtle gold rim light behind him.
+- Add a floating glass badge "Somebody Needs You!" and a second glass badge with "20+ Years" overlapping the photo edge, both gently floating (up/down animation).
+- Headline bigger and bolder, "Unstoppable!" with a gold shimmer gradient animation. Add a short animated underline.
+- Buttons larger: red primary with glow, outlined secondary with glass effect.
+- Stats row in glass cards with count-up animation (20+, Thousands, Nationwide) with larger numbers.
+- Background: layered navy gradient, faint animated light rays and slow floating gold particles. Gentle parallax on photo.
+- Mobile hero: photo on top (faded into the background), then text, full-width buttons.
+
+3. COLOR SYSTEM (more professional, limited palette)
+- Primary: deep navy #0B1F3A and #0B0F14. Secondary: royal blue #0F86CC used sparingly for accents and links. CTA only: brand red #C8302F. Gold #FFC93C only for the word "Unstoppable!", small labels and highlights.
+- Replace the cream (#FFF0D2) bar and cream blocks with clean white, soft light gray (#F5F7FA) and navy sections, alternating for rhythm.
+- Use elegant navy-to-blue gradients for dark sections. Remove any extra random colors. Make sure ALL text has strong contrast (WCAG AA): dark navy text on light backgrounds, white on dark, no light-gray text on white.
+
+4. TYPOGRAPHY AND READABILITY
+- Body text minimum 17-18px desktop, 16px mobile, line-height 1.7. Headings in Playfair Display, body in Inter. Increase font weights for small labels so they are easy to read. No tiny faded text anywhere.
+
+5. LAYOUT FIXES
+- Fix empty spaces: in the "Unstoppable! Professional Development" section, place the intro text on the left and a large framed photo of Larry (or a quote card) on the right so the section looks balanced.
+- Consistent section padding (96px desktop, 64px mobile), max container width 1200px, equal card heights, aligned grids.
+- Make the trust bar (states) a dark navy strip with gold-outlined pills and a slow auto-scrolling marquee.
+
+6. ANIMATIONS (premium and smooth, using Framer Motion)
+- Scroll-reveal on every section and card (fade + slide up, staggered).
+- Cards: hover lift, glow border, icon bounce. Buttons: shine sweep and press effect.
+- Animated gradient dividers between sections, count-up numbers, floating elements, smooth anchor scrolling, scroll progress bar at the very top under the header (gold).
+- Video and testimonial cards: scale-up on hover with play icon pulse.
+- Respect prefers-reduced-motion.
+
+7. RESPONSIVE
+- Test and perfect for 320, 375, 414, 768, 1024, 1280, 1440 and 1920px. No horizontal scrolling, no cut-off text, tap targets at least 44px, images scale properly. Add a floating "Book Larry" button on mobile at the bottom (not overlapping the content or back-to-top button).
+
+8. FINAL POLISH
+- Overall feeling: a high-end national keynote speaker brand, clean, bold, trustworthy and conversion-focused, like a multi-million-dollar company website. Keep the logo and photo from the original site. Do not change the text content, only improve design, spacing and effects.
